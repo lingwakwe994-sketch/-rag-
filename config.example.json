@@ -1,0 +1,21 @@
+{
+  "rag_score_threshold": 0.45,
+  "rag_high_confidence_threshold": 0.72,
+  "llm": {
+    "api_key": "your-api-key-here",
+    "base_url": "https://api.deepseek.com/v1",
+    "default_model": "deepseek-v4-flash",
+    "models": [
+      { "id": "deepseek-v4-flash", "label": "DeepSeek V4 Flash" },
+      { "id": "deepseek-v4-pro", "label": "DeepSeek V4 Pro" }
+    ]
+  },
+  "web_search": {
+    "max_results": 5,
+    "tavily_api_key": "",
+    "timeout_seconds": 15
+  },
+  "chat_memory": {
+    "max_turns": 10
+  }
+}
